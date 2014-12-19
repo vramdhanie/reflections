@@ -1,0 +1,11 @@
+Question
+What happens when you initialize a repository? Why do you need to do it?
+
+Thoughts
+Git creates a new hidden directory called .git to store data about your repository and its history. You need it in order to tell git that you wish to track this directory.
+
+Questions
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Thoughts
+The staging area is a temporary list of file changes that you wish to include in a commit. Once commit occurs the staging area is then cleared. The working directory is the physical directory in which your files tracked by git are stored and the repository is the tracked files and all their history.
