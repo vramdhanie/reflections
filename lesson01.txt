@@ -1,0 +1,47 @@
+Reflections
+
+Question
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Thoughts
+1. Changed lines are highlighted so you can focus only on the relevant areas
+2. Clearly marked additions with + sign
+
+Question
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Thoughts
+1. Very quick roll back
+2. Complex undo  
+
+Question
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Thoughts
+Pros
+1. Greater control over size of commit
+2. Able to ad meaningful message to each commit
+3. Better history
+
+Cons
+1. Must remember to commit
+
+Question
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Thoughts
+Google docs is designed to allow the user to work on a single file at a time. It makes sense that in most cases the changes to a single file need to be tracked with no relation to changes in other files. The concept of a group of files all belonging to the same project is simply not needed by a word processing application.
+
+Git on the other hand is designed for code which is usually made up of mant files that are all related to each other. That is, the file is just a component of something larger. The entire programme made up of all the files may be viewed as a single artifact that the programmer is creating. And we would like to see a history of the changes to the whole rather than the parts.
+
+Question
+How can you use the commands git log and git diff to view the history of files?
+
+Thoughts
+Git log shows all commits in the history of a repository. Git diff shows the changes between one commit and another.
+
+Question
+How might using version control make you more confident to make changes that could break something?
+
+Thoughts
+It is easy to undo the past. Now you can time travel back to a time when the code worked. This way you a free to experiment as much as possible knowing that you can find any previously working version of the code.
