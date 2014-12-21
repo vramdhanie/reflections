@@ -23,3 +23,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Thoughts
 Makes it easy to tel if the local repository is getting out of sync with the remote without having to fetch. Also, determining what may have happened since the last pull or push would be easier.
+
+Question
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Thoughts
+On code? I wouldn't want to collaborate with GitHub or equivalent. For other things we use Google Docs, Trello etc.
