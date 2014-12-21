@@ -45,3 +45,10 @@ How might using version control make you more confident to make changes that cou
 
 Thoughts
 It is easy to undo the past. Now you can time travel back to a time when the code worked. This way you a free to experiment as much as possible knowing that you can find any previously working version of the code.
+
+Question
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Thoughts
+Source control for all my code projects
+
