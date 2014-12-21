@@ -1,0 +1,5 @@
+Question
+When would you want to use a remote repository rather than keeping all your work local?
+
+Thoughts
+This way the code is avaiable from any computer, simply fetch the code and work on it. Also, multiple programmers may work on the same repository.
