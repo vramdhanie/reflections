@@ -9,3 +9,11 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Thoughts
 Sometimes you may be in the middle of a code change and do not need to update to the latest version. Remember that in most cases multiple  programmers are working on the repository. If the remote pushed changes to your local automatically you may suddenly get merge conflicts or unexpected changes to your file. Better to choose when you wish to pull.
+
+Question
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Thoughts
+A fork is a clone that GitHub performs on their servers for you. It allows them to track which repositories have been forked from which. 
+A branch is a named commit point within a repository.
+A clone is a copy of a repository. Either remote or local.
