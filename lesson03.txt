@@ -29,3 +29,11 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 Thoughts
 On code? I wouldn't want to collaborate with GitHub or equivalent. For other things we use Google Docs, Trello etc.
+
+Question
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Thoughts
+1. When you want to keep the change out of the master because you may not be sure that it is a permanent change
+2. To experiment with a feature
+3. To avoid merge conflicts while working on the feature
